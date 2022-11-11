@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,bs,gs;
+for(i=1,i<=3,i++)
+{
+printf("Enter Basuc Salary");
+scanf("%d",&bs);
+gs=bs+bs*0.9+bs*0.1;
+printf("Gross salary is %d",gs);
+}
+getch();
+}
