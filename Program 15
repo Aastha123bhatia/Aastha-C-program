@@ -1,0 +1,23 @@
+#include<conio.h>
+void main()
+{
+int no,i,count=o;
+printf("Enter any number:");
+scanf("%d",&no);
+for(i=1;i,=no;i++)
+{
+if(no%==0)
+{
+count++;
+}
+}
+if(count>2)
+{
+printf("Not a prime number");
+}
+else
+{
+printf("Prime number");
+}
+getch();
+}
