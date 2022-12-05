@@ -1,0 +1,24 @@
+#include<stdio.h>
+int sum(int);
+void main()
+{
+int n,sum;
+printf("Enter any number:");
+scanf("%d",&n);
+sum=rec(n);
+printf("Sum=%d",sum);
+}
+int rec(int n)
+{
+int s;
+if(n==1)
+{
+return(1);
+}
+else
+{
+s=n*(n+1)/2;
+}
+return(s);
+}
+
