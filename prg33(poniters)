@@ -1,0 +1,39 @@
+#include<stdio.h>
+void add(int*,int*);
+void sub(int*,int*);
+void mul(int*,int*);
+void div(int*,int*);
+void main()
+{
+int a,b;
+printf("Enter two numbers:");
+scanf("%d%d",&a,&b);
+add(&a,&b);
+sub(&a,&b);
+mul(&a,&b);
+div(&a,&b);
+}
+void add(int*x,int*y)
+{
+int sum;
+sum=*x+*y;
+printf("Sum is %d",sum);
+}
+void sub(int*x,int*y)
+{
+int sub;
+sub=*x-*y;
+printf("Subtraction is %d",sub);
+}
+void mul(int*x,int*y)
+{
+int mul;
+mul=*x**y;
+printf("Multiplication is %d",mul);
+}
+void div(int*x,int*y)
+{
+int div;
+div=*x/ *y ;
+printf("Division is %d",div);
+}
